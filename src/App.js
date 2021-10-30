@@ -14,7 +14,6 @@ import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./components/Globalstyle";
 import { lightTheme, darkTheme } from "./components/Themes"
 
-//...
 function App() {
 
   const [theme, setTheme] = useState('light');
