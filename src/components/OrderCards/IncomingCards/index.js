@@ -12,8 +12,6 @@ const allList = [
     avg:7}],
     [{id:'card-3',
     avg:20}],
-   [ {id:'card-4',
-    avg:50}],
 ]
 
 const reorder = (list, startIndex, endIndex) => {
@@ -40,10 +38,9 @@ const reorder = (list, startIndex, endIndex) => {
   };
   
   const getItemStyle = (isDragging, draggableStyle) => ({
+    userSelect: "none",
     margin: `0 0 ${0}px 0`,
-  
-    background: isDragging ? "lightgreen" : "#F7F7F7",
-  
+    background: isDragging ? "white" : "#F7F7F7",
     ...draggableStyle
   });
 

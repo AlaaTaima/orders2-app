@@ -8,7 +8,6 @@ import MainBar from './components/MainBar';
 import NavBar from './components/NavBar';
 import Categories from './components/Categories';
 import MainSection from './components/OrderCards';
-import Test from './components/Test'
 
 import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./components/Globalstyle";
@@ -33,7 +32,6 @@ function App() {
       <MainBar handleClick={themeToggler} />
       <NavBar />
       <Categories />
-      {/* <Test /> */}
       <MainSection />
     </div>
 

@@ -5,15 +5,13 @@ import './style.css';
 import Card from './Card'
 import SubCard from './SubCard'
 
-import { DragDropContext, Droppable,Draggable   } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable,Draggable } from 'react-beautiful-dnd';
 
 
 
 const outList = [
-
     [{id:'card-1',
     avg:5}],
-   
 ]
 
 const reorder = (list, startIndex, endIndex) => {
@@ -40,12 +38,12 @@ const reorder = (list, startIndex, endIndex) => {
   };
   
   const getItemStyle = (isDragging, draggableStyle) => ({
+    userSelect: "none",
     margin: `0 0 ${0}px 0`,
-  
-    background: isDragging ? "lightgreen" : "#F7F7F7",
-  
+    background: isDragging ? "white" : "#F7F7F7",
     ...draggableStyle
   });
+
 
 const OutGoingCard = ()=>{
 
@@ -90,8 +88,6 @@ const OutGoingCard = ()=>{
                   ref={provided.innerRef}
                   {...provided.droppableProps}
                 >
-
-
                  {el.map((item, index) => (
                     <Draggable
                       key={item.id}
@@ -111,6 +107,7 @@ const OutGoingCard = ()=>{
                           <div
                             style={{
                               display: "flex",
+                              flexDirection:"column",
                               justifyContent: "space-around"
                             }}
                           >
@@ -120,7 +117,7 @@ const OutGoingCard = ()=>{
                    
                         </div>
                       )}
-                      
+                    
                     </Draggable>
                   ))}
                    
@@ -130,11 +127,9 @@ const OutGoingCard = ()=>{
             </Droppable>
           ))}
                 </DragDropContext>
-                <SubCard />
-                <SubCard />
 
-          
-
+                <SubCard />
+                      <SubCard />
         </div>
     )
 }

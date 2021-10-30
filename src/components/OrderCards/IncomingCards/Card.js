@@ -64,10 +64,14 @@ const Card = ({average})=>{
 
             </div>
 
+            <div className="card-border-container">
+
             <div className ="card-border">
+
 
             </div>
             <p className="card-border-text">41,00 €</p>
+            </div>
 
             <ButtonComponent value="Ready to Deliver" />
 
