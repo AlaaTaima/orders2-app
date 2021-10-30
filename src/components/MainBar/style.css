@@ -1,0 +1,67 @@
+
+
+
+.main-bar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding:10px;
+}
+
+.main-bar-date{
+color: #707070;
+font-family: 'SFProDisplay-Light';
+font-size: 12px;
+text-align: left;
+}
+
+
+.main-bar-account-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+.main-bar-squar{
+    width: 26px;
+    height: 26px;
+    background-color: #6F7070;
+    cursor: pointer;
+}
+.main-bar-account-container{
+position: relative;
+}
+
+.main-bar-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 50%;
+    background-color: #F4F4F4;
+    cursor: pointer;
+}
+.account-online{
+    width: 12px;
+    height: 12px;
+    background-color: #23C70A;
+    border-radius: 50%;
+    border: 2px solid white;
+    position:absolute;
+    top: 60% ;
+    left: 65%;
+}
+.account-name{
+    color: #3377FF;
+    font-family: 'SFProDisplay-Regular';
+    font-size: 12px;
+    text-align: left;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}

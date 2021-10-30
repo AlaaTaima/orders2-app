@@ -1,0 +1,32 @@
+
+.nav-bar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #E4E4E4 ;
+    border-bottom: 1px solid #E4E4E4 ;
+    padding: 10px;
+}
+
+.active-item, .nav-bar-item{
+font-size: 16px;
+color: #707070;
+text-align: left;
+font-family: 'SFProDisplay-Regular';
+cursor: pointer;
+}
+.active-item{
+    color: #15BBF9;
+    border-bottom: 2px solid #15BBF9;
+}
+.active-item:hover, .nav-bar-item:hover{
+    color: #15BBF9;
+    border-bottom: 2px solid #15BBF9;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+

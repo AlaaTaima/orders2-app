@@ -1,0 +1,21 @@
+
+.main-content{
+    width: 315px;
+    height: 73px;
+    background-color: #FFEED0;
+    border: 1px solid #FFEED0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-content-text{
+    color: #806840;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'SFProDisplay-Medium';
+    font-weight: bold;
+    width: 83%;
+}

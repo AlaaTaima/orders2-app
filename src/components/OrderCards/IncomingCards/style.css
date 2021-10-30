@@ -1,0 +1,135 @@
+
+.card-title{
+    color: #000000;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-container{
+    width: 375px;
+    height: 100%;
+    background-color: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    margin-right: 2px;
+}
+.main-card-container{
+    background-color: white;
+    width: 343px;
+    height: 477px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.main-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -35px;
+}
+.in-icon-img{
+    margin-right: 10px;
+}
+.main-title-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.card-avg-value{
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'SFProDisplay-Bold';
+}
+
+.card-avg-num{
+    color: #9B9B9B;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'SFProDisplay-Medium';
+}
+
+
+
+.card-list{
+    width: 100%;
+}
+
+.card-list-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.card-list-gray{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 46%;
+}
+
+.list-item-num, .list-item-value{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'SFProDisplay-Bold';
+}
+
+.list-item-num{
+    margin-right: 20px;
+}
+.list-item-value{
+    width: 85px;
+    text-align: left;
+}
+
+.list-item-gray{
+    color: #9B9B9B;
+    font-size: 14px;
+    font-family: 'SFProDisplay-Medium';
+
+}
+
+.card-border{
+    border-bottom: 1px solid #9B9B9B;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.card-border-text{
+    color: #9B9B9B;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'SFProDisplay-Medium';
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.card-cancel-btn{
+    color: #FA432A;
+    font-family: 'SFProDisplay-Medium';
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
